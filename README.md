@@ -105,14 +105,13 @@ LIFO ve FIFO kullanabilir.
             // Stack'ten öğe çıkarma
             System.out.println("Stack Pop: " + deque.pop());
     
-            // Kuyruk (FIFO)
+            // Queue (FIFO)
             deque.offer("Element 4");
             deque.offer("Element 5");
             deque.offer("Element 6");
     
-            // Kuyruktan öğe çıkarma
+            // Queue öğe çıkarma
             System.out.println("Queue Poll: " + deque.poll());
-    
-            // Dequenin kalan elemanlarını yazdırma
+           
             System.out.println("Remaining elements in deque: " + deque);
 ```
